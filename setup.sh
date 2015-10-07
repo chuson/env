@@ -22,3 +22,11 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim &
 cp .vimrc ~/.vimrc &&
 vim -c PluginInstall -c quitall &&
 cp .bash_profile ~/.bash_profile
+
+# moom
+open /Applications/Google\ Chrome.app https://manytricks.com/download/moom
+open ~/Downloads/moom*dmg
+
+read -n 1 -p "after installing moom press any key to continue" "mainmenuinput"
+cp ./com.manytricks.Moom.plist ~/Library/Preferences/com.manytricks.Moom.plist
+open /Applications/Moom.app
