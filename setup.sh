@@ -9,7 +9,7 @@ brew install git &&
 brew install wget &&
 
 cd ~/git
-git clone git@github.com:powerline/fonts.git &&
+git clone https://github.com/powerline/fonts.git &&
 cd fonts &&
 ./install.sh
 
